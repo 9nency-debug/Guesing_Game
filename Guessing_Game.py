@@ -6,4 +6,4 @@ while guess_count < guess_limit:
     guess_count += 1
     if guess == secret_number:
         print('You won')
-    
+        break
